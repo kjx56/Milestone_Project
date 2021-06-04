@@ -1,0 +1,84 @@
+body {
+
+    background-color: #12475f !important;
+}
+
+
+.Login_Form {
+
+    position: relative;
+    top: 10%;
+    left: 50%;
+    margin-top: 50px;
+    margin-left: -25%;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    background-color: #34495e;
+    border-radius: 2px;
+    flex-direction: column;
+    
+}
+
+
+
+#L_Name {
+
+    font-family: 'BioRhyme', serif;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 3%;
+
+}
+
+.form-input {
+
+    border-radius: 0.25rem;
+    padding: 1rem;
+    width: 50%;
+    align-self: center;
+}
+
+#curr_Level {
+
+    border-radius: 0.25rem;
+    padding: 1rem;
+    width: 50%;
+    align-self: center;
+
+
+}
+
+.form-input:hover, #curr_Level:hover  {
+
+
+    background-color: #eeeeee;
+}
+
+.btn  {
+
+    margin-top: 3%;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #msg {
+   margin-top: 5px;
+    background-color: bisque;
+  }
